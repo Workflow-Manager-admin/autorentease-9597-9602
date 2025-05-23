@@ -36,7 +36,7 @@ const Booking = () => {
   };
 
   return (
-    <div className="container" style={{ marginTop: '32px', marginBottom: '64px' }}>
+    <div className="container booking-container" style={{ marginTop: '32px', marginBottom: '64px' }}>
       <Link to={`/car/${carDetails.id}`} className="nav-link" style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '24px' }}>
         <FontAwesomeIcon icon={faArrowLeft} /> Back to car details
       </Link>
