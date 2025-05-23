@@ -14,7 +14,7 @@ const AppContext = createContext();
  */
 export const AppProvider = ({ children }) => {
   // State for cars data
-  const [cars, setCars] = useState(carsData);
+  const [cars, /*setCars*/] = useState(carsData);
   
   // State for search filters
   const [filters, setFilters] = useState({
