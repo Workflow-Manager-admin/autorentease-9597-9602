@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// Use the library defined in index.js instead of direct imports
-// for brand icons which might be causing issues
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCar } from '@fortawesome/free-solid-svg-icons';
-import { faCar } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
+=======
 
 // PUBLIC_INTERFACE
 /**
