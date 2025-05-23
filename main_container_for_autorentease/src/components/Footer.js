@@ -51,16 +51,16 @@ const Footer = () => {
             <p>Subscribe to our newsletter for the latest news and offers.</p>
             <div className="footer-social">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={['fab', 'twitter']} />
+                <FontAwesomeIcon icon={faTwitter} />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={['fab', 'instagram']} />
+                <FontAwesomeIcon icon={faInstagram} />
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                <FontAwesomeIcon icon={['fab', 'youtube']} />
+                <FontAwesomeIcon icon={faYoutube} />
               </a>
             </div>
           </div>
