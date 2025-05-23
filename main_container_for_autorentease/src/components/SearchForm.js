@@ -42,7 +42,7 @@ const SearchForm = () => {
           
           <div className="search-group">
             <label className="search-label">
-              <FontAwesomeIcon icon={faCalendar} /> Return Date
+              <FontAwesomeIcon icon={faCalendarAlt} /> Return Date
             </label>
             <input 
               type="date" 
