@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendar, faLocationDot, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarAlt, faLocationDot, faSearch } from '@fortawesome/free-solid-svg-icons';
 
 // PUBLIC_INTERFACE
 /**
@@ -32,7 +32,7 @@ const SearchForm = () => {
           
           <div className="search-group">
             <label className="search-label">
-              <FontAwesomeIcon icon={faCalendar} /> Pickup Date
+              <FontAwesomeIcon icon={faCalendarAlt} /> Pickup Date
             </label>
             <input 
               type="date" 
